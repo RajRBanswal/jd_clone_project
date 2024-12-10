@@ -190,3 +190,9 @@
   background-color: color-mix(in srgb, var(--accent-color), var(--contrast-color) 20%);
 }
 
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  border: 1px solid #fd7e14;
+  border-radius: 10px;
+}
+
