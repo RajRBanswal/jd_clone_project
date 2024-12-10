@@ -659,3 +659,20 @@ h6 {
 header {
   box-shadow: 0 0 10px #00000047;
 }
+.navbarItem li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.navbarItem li a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+footer .footer-menu .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}

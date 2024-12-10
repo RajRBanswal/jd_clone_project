@@ -109,9 +109,9 @@ const Navbar = () => {
           <div class="row py-1 border-bottom">
             <div class="col-sm-3 col-lg-2 text-center text-sm-start">
               <div class="main-logo pt-2">
-                <a href="index.html">
+                <Link to="/">
                   <img src="./logo.png" alt="logo" class="img-fluid" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -158,7 +158,7 @@ const Navbar = () => {
             </div>
 
             <div class="col-sm-8 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-4 mt-sm-0 justify-content-center justify-content-sm-end">
-              <ul class="d-flex justify-content-end list-unstyled m-0">
+              <ul class="d-flex justify-content-end list-unstyled m-0 navbarItem">
                 <li>
                   <a href="#" class=" p-2 mx-1">
                     Home
