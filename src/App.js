@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/website/layouts/Layout";
 import Home from "./components/website/Home";
+import Contact from "./components/website/Contact";
 import Signup from "./components/Signup";
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Routes>
         <Route path="/" Component={Layout}>
           <Route index Component={Home} />
-          <Route path="signup" Component={Signup} />
+          <Route path="contact" Component={Contact}/>
+          <Route path="signup" Component={Signup}/>
         </Route>
       </Routes>
     </BrowserRouter>
