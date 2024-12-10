@@ -195,7 +195,7 @@ h6 {
   --bs-nav-pills-link-active-bg: #f1f1f1;
 }
 
-.container,
+/* .container,
 .container-fluid,
 .container-lg,
 .container-md,
@@ -203,7 +203,7 @@ h6 {
 .container-xl,
 .container-xxl {
   --bs-gutter-x: 3rem;
-}
+} */
 /*----------------------------------------------*/
 /* 6. SITE STRUCTURE */
 /*----------------------------------------------*/
