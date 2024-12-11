@@ -142,7 +142,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div class="col-sm-12 col-12 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-lg-4 mt-3 justify-content-center justify-content-sm-end">
+            <div class="col-sm-12 col-12 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-lg-0 mt-4 justify-content-center justify-content-sm-end">
               <ul class="d-flex justify-content-end list-unstyled m-0 navbarItem">
                 <li>
                   <a href="#" class=" p-2 mx-1">
