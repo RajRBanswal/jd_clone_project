@@ -5,6 +5,40 @@ import React from "react";
 const Home = () => {
   return (
     <>
+      <div className="container py-3 d-block d-sm-block d-md-none d-lg-none">
+        <div class="search-bar bg-light py-4 px-2 my-2 rounded-3 border border-danger">
+          <div className="row g-2">
+          <div class="col-12 col-lg-12 col-md-12">
+            <h3 className="text-center">Search Here</h3>
+          </div>
+            <div class="col-4 col-lg-4 col-md-4">
+              <select class="form-select form-control">
+                <option>Select City</option>
+                <option>Groceries</option>
+                <option>Drinks</option>
+                <option>Chocolates</option>
+              </select>
+            </div>
+            <div class="col-7 col-lg-7 col-md-7">
+              <form
+                id="search-form"
+                class="text-center"
+                action="index.html"
+                method="post"
+              >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for more than 20,000 products"
+                />
+              </form>
+            </div>
+            <div class="col-1 col-lg-1 col-md-1 pt-1 d-flex justify-content-center align-items-center">
+              <i className="fa fa-search"></i>
+            </div>
+          </div>
+        </div>
+      </div>
       <section
         class="py-3"
         style={{

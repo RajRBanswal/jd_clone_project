@@ -162,8 +162,13 @@ body {
   --bs-btn-disabled-bg: #ffeada;
   --bs-btn-disabled-border-color: #ffeada;
 }
+
+.bg-warning {
+  background-color: yellow !important;
+}
 body {
   letter-spacing: 0.03em;
+  font-size: 16px !important;
 }
 h1,
 h2,

@@ -5,31 +5,31 @@ const Footer = () => {
   return (
     <div>
       <footer class="py-5 bg-warning">
-        <div class="container-fluid">
-          <div class="row">
+        <div class="container">
+          <div class="row g-3">
             <div class="col-lg-3 col-md-6 col-sm-6">
               <div class="footer-menu">
                 <img src="./logo.png" width={200} alt="logo" />
-                <div class="social-links mt-5">
-                  <ul class="d-flex list-unstyled gap-2">
+                <div class="social-links mt-5 text-center">
+                  <ul class="d-flex list-unstyled gap-2 m-auto">
                     <li>
                       <a href="#" class="btn btn-outline-dark">
-                        <i className="fa fa-facebook"></i>
+                        <i className="fab fa-facebook"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="btn btn-outline-dark">
-                        <i className="fa fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="btn btn-outline-dark">
-                        <i className="fa fa-youtube"></i>
+                        <i className="fab fa-youtube"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#" class="btn btn-outline-dark">
-                        <i className="fa fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>
@@ -127,7 +127,10 @@ const Footer = () => {
             <div class="col-md-6 credit-link text-start text-md-end">
               <p className="mb-0 text-white">
                 Designed By
-                <a href="https://ewebdigital.com/" className="text-danger"> Vighnaharta E Web Digital</a>
+                <a href="https://ewebdigital.com/" className="text-danger">
+                  {" "}
+                  Vighnaharta E Web Digital
+                </a>
               </p>
             </div>
           </div>
