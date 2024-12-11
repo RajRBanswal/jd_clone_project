@@ -107,67 +107,52 @@ const Navbar = () => {
       <header className="bg-warning">
         <div class="container-fluid">
           <div class="row py-1 border-bottom">
-            <div class="col-sm-3 col-lg-2 text-center text-sm-start">
+            <div class="col-sm-3 col-6 col-lg-2  m-auto m-lg-start text-center text-sm-start">
               <div class="main-logo pt-2">
-                <a href="index.html">
+                <Link to="/">
                   <img src="./logo.png" alt="logo" class="img-fluid" />
-                </a>
+                </Link>
               </div>
             </div>
 
-            <div class="col-sm-6 col-lg-6  offset-sm-2 offset-md-0 d-none d-lg-block ps-3">
-              <div class="search-bar bg-light  p-2 px-3 my-2 rounded-3">
+            <div class="col-sm-6 col-lg-6  offset-sm-2 offset-md-0 d-none d-md-block d-lg-block ps-3">
+              <div class="search-bar bg-light  p-2 px-3 my-2 rounded-3 border border-danger">
                 <div className="row">
-                  <div class="col-md-5 d-none d-md-block">
-                    <select class="form-select form-select-lg form-control form-control-lg">
-                      <option>All Categories</option>
+                  <div class="col-6 col-md-4 col-lg-4">
+                    <select class="form-select form-control">
+                      <option>Select City</option>
                       <option>Groceries</option>
                       <option>Drinks</option>
                       <option>Chocolates</option>
                     </select>
                   </div>
-                  <div class="col-11 col-md-6">
-                    <form
-                      id="search-form"
-                      class="text-center"
-                      action="index.html"
-                      method="post"
-                    >
-                      <input
-                        type="text"
-                        class="form-control form-control-lg"
-                        placeholder="Search for more than 20,000 products"
-                      />
-                    </form>
+                  <div class="col-11 col-md-7 col-lg-7">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search for more than 20,000 products"
+                    />
                   </div>
-                  <div class="col-1 col-md-1 pt-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"
-                      />
-                    </svg>
+                  <div class="col-1 col-lg-1 col-md-1 pt-1 d-flex justify-content-center align-items-center">
+                    <h4 className="mb-0">
+                      <i className="fa fa-search"></i>
+                    </h4>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-sm-8 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-4 mt-sm-0 justify-content-center justify-content-sm-end">
-              <ul class="d-flex justify-content-end list-unstyled m-0">
+            <div class="col-sm-12 col-12 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-lg-4 mt-3 justify-content-center justify-content-sm-end">
+              <ul class="d-flex justify-content-end list-unstyled m-0 navbarItem">
                 <li>
                   <a href="#" class=" p-2 mx-1">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" class=" p-2 mx-1">
+                  <Link to="/about" class=" p-2 mx-1">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link to="/contact" class=" p-2 mx-1">
@@ -184,6 +169,7 @@ const Navbar = () => {
           </div>
         </div>
       </header>
+
     </div>
   );
 };

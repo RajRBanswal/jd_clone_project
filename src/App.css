@@ -32,19 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-/* Contact */
 
-.contact .info-box {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  padding: 3rem;
-  border-radius: 1rem;
-  height: 100%;
+.molk {
+  padding-top: 65%;
 }
 
 .contact .info-box h3 {
@@ -239,4 +235,3 @@
 }
 
 
-/* Sign-Up form CSS End */
