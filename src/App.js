@@ -7,6 +7,7 @@ import About from "./components/website/About";
 import Contact from "./components/website/Contact";
 
 import Signup from "./components/website/Signup";
+import AdminLogin from "./components/adminpanel/AdminLogin";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
           <Route path="about" Component={About}/>
           <Route path="contact" Component={Contact} />
           <Route path="signup" Component={Signup} />
-
         </Route>
+        <Route path="/admin-login" Component={AdminLogin} />
       </Routes>
     </BrowserRouter>
   );
