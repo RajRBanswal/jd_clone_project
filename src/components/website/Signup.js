@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Signup = () => {
     return (
+        <div className='sign-up-form'>
         <div className='container py-5'>
             <div className='row'>
                 <div className='col-lg-6 col-12 m-auto'>
                     <img src='./assets/images/6333213.jpg' style={{ width: "100%" }} />
                 </div>
-                <div className='col-lg-6 col-12 text-center m-auto mt-lg-0 mt-5'>
+                <div className='col-lg-6 col-12 text-center m-auto mt-lg-0 mt-5 p-3 orange-border'>
                     <h1 style={{ color: "#fd7e14" }}>Sign-Up</h1>
 
                     <input type="text" placeholder="Enter Name" name="name" className='form-control form-control-lg mt-3' required />
@@ -17,11 +18,12 @@ const Signup = () => {
                     <input type="password" placeholder="Enter Password" name="password" required className='form-control form-control-lg mt-3' />
                     <input type="password" placeholder="Repeat Password" name="repeat password" className='form-control form-control-lg mt-3' required />
 
-                    <button className='btn btn-warning btn-lg mt-3'>Sign-Up</button>
+                    <button className='btn btn-lg mt-3' style={{background:"#fd7e14"}}>Sign-Up</button>
 
                     <p className='py-2'> If you already have a account? <Link to='/login' style={{ color: "#fd7e14" }}>Login Now</Link></p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
