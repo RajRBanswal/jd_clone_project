@@ -163,9 +163,9 @@ code {
 }
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-  border: 1px solid #fd7e14;
-  border-radius: 10px;
+input[type=text], input[type=password], select {
+  border: 1px solid #fd7e14 !important;
+  border-radius: 5px !important;
 }
 
 
