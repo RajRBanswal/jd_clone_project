@@ -8,6 +8,7 @@ import Contact from "./components/website/Contact";
 
 import Signup from "./components/website/Signup";
 import AdminLogin from "./components/adminpanel/AdminLogin";
+import Sidebar from "./components/adminpanel/layouts/Sidebar";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="signup" Component={Signup} />
         </Route>
         <Route path="/admin-login" Component={AdminLogin} />
+        <Route path="/admin-sidebar" Component={Sidebar} />
       </Routes>
     </BrowserRouter>
   );
