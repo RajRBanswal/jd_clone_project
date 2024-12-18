@@ -110,7 +110,7 @@ const Navbar = () => {
             <div class="col-sm-3 col-6 col-lg-2  m-auto m-lg-start text-center text-sm-start">
               <div class="main-logo pt-2">
                 <Link to="/">
-                  <img src="./logo.png" alt="logo" class="img-fluid" />
+                  <img src="./logo1.png" alt="logo" class="img-fluid" />
                 </Link>
               </div>
             </div>
